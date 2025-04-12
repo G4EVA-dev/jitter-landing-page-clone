@@ -30,7 +30,7 @@ export default function Hero() {
   return (
     <div
       ref={containerRef}
-      className="h-screen flex flex-col items-center justify-center bg-black text-white"
+      className="h-screen flex flex-col items-center justify-center bg-white text-black"
     >
       <motion.h1
         className="hero-title text-5xl font-bold"
